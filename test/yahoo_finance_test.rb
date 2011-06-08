@@ -3,16 +3,10 @@
 # yahoo_finance_test.rb
 # August 5, 2007
 #
-
 require 'test/unit'
-require File.join(File.dirname(__FILE__),'../lib/yahoo_finance')
-
+require 'yahoo_finance'
 class TestYahoo_finance_test < Test::Unit::TestCase
-#  def setup
-#  end
-#
-#  def teardown
-#  end
+
 
   def test_quotes
 
